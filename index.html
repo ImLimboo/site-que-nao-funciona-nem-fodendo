@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JESUS CRISTO EM TI CONFIO</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">LOGO</a>
+      <ul>
+        <li><a href="#" id="active">Início</a></li>
+        <li><a href="#">Trabalho</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="#">Sobre</a></li>
+      </ul>
+    </header>
+    <section>
+      <img src="images/stars.png" id="stars">
+      <img src="images/moon.png" id="moon">
+      <img src="images/mountains_behind.png" id="mountains_behind">
+      <h2 id="text">Moon Light</h2>
+      <a href="#sec" id="btn">Explore</a>
+      <img src="images/mountains_front.png" id="mountains_front">
+    </section>
+    <div class="sec" id="sec">
+    <h2>Parallax Scroling Effects</h2>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptatem nulla, molestiae rerum perferendis quod vitae enim temporibus ratione quidem nam fugit similique est deleniti. Animi fuga officiis cupiditate cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ab, alias mollitia fugiat iusto nulla illum repellat aperiam aut, officia, cupiditate harum iste. Eveniet, voluptatibus. Velit voluptatibus maxime doloremque a Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi minima dolorum eaque corporis laboriosam officia earum possimus sed deleniti fuga qui, sunt hic unde fugiat incidunt! Corrupti non rerum voluptas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe labore atque aspernatur vero nobis, ducimus impedit sed iusto earum quos necessitatibus dolore perspiciatis natus quae voluptas rerum, id perferendis. In. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi incidunt, assumenda expedita iste et corporis dolorem minima iure, voluptatibus, vero error ea architecto repudiandae dolores accusamus pariatur nemo quo quia. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam sit, iste magni, quo deleniti, tempore quidem suscipit a cumque illum aut. Alias autem aperiam culpa earum quaerat explicabo nihil voluptates? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas velit quae fuga quaerat officiis sequi, rerum mollitia facilis, optio, laboriosam consectetur. Fugiat eveniet voluptate ex ratione maxime. Expedita, fugiat quas! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam architecto ratione excepturi quidem, corrupti eligendi, a harum rerum modi tenetur sit est delectus provident illo obcaecati nobis quisquam tempora atque. lorem 
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio architecto ipsam adipisci sequi id sit aperiam obcaecati voluptates! Similique inventore aliquid eum temporibus dolorum porro. Consequuntur, quo? Iste, fugit magnam! Lorem ipsum dolor sit amet consectetur adipisicing elit. A esse architecto atque tempore perferendis, vitae vel <br> <br> tempora iste necessitatibus, odio nihil omnis ipsa, aliquam dolore numquam quo cum voluptate sequi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Error in dolores nihil, totam aspernatur atque accusamus non id, eius autem ad nam alias ullam corporis iste est. Debitis, quam obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos corporis, perferendis vel deserunt odit inventore eum quo quasi tenetur, corrupti facere, impedit laboriosam maxime sapiente vero distinctio consectetur blanditiis magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem obcaecati odit dicta aspernatur voluptatum deserunt necessitatibus eveniet, in dolorem iusto temporibus fuga similique suscipit laborum asperiores deleniti magnam, voluptatem alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit veritatis laudantium a dolore? Assumenda, rem deserunt itaque at atque ipsum repudiandae quas natus dolores, <br><br> odit hic magnam cupiditate impedit unde! Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati saepe quisquam nam, harum ullam animi dolorum ad excepturi! Aut praesentium deleniti asperiores dignissimos consequuntur possimus blanditiis eos quibusdam explicabo ea? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex delectus, accusamus quod quas labore quisquam sunt reiciendis quaerat mollitia ratione, vel libero corporis autem nostrum veniam debitis velit itaque! Nemo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, earum enim magnam architecto suscipit perspiciatis inventore, itaque veritatis eligendi voluptatum mollitia pariatur! Voluptatum excepturi nemo ipsum. Provident labore unde adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, unde exercitationem autem nostrum iusto rem illum eius doloremque quibusdam rerum inventore veritatis provident facilis minus quos magni earum? Libero, sunt?<br><br> odit hic magnam cupiditate impedit unde! Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati saepe quisquam nam, harum ullam animi dolorum ad excepturi! Aut praesentium deleniti asperiores dignissimos consequuntur possimus blanditiis eos quibusdam explicabo ea? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex delectus, accusamus quod quas labore quisquam sunt reiciendis quaerat mollitia ratione, vel libero corporis autem nostrum veniam debitis velit itaque! Nemo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, earum enim magnam architecto suscipit perspiciatis inventore, itaque veritatis eligendi voluptatum mollitia pariatur! Voluptatum excepturi nemo ipsum. Provident labore unde adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, unde exercitationem autem nostrum iusto rem illum eius doloremque quibusdam rerum inventore veritatis provident facilis minus quos magni earum? Libero, sunt?
+    </p>
+    </div>
+
+    <script>
+      let stars = document.getElementById('stars');
+      let moon = document.getElementById('moon');
+      let mountains_behind = document.getElementById('mountains_behind');
+      let text = document.getElementById('text');
+      let btn = document.getElementById('btn');
+      let mountains_front = document.getElementById('mountains_front');
+      let header = document.querySelector('header');
+
+     window.addEventListener('scroll', function(){
+        let value = window.scrollY;
+        starts.style.left = value * 0.25 + 'px';
+        moon.style.top = value * 1.05 + 'px';
+        mountains_behind.style.top = value * 0.05 + 'px';
+        mountains_front.style.top = value * 0 + 'px';
+        text.style.marginRight = value * 4 + 'px';
+        text.style.marginTop = value * 1.5 + 'px';
+        btn.style.marginTop = value * 4 + 'px';
+        header.style.top = valuev * 0.5 + 'px';
+      })
+    </script>
+  </body>
+</html>
